@@ -93,7 +93,7 @@ app.get('/info', function(req, res){
 		 abiDefinition = JSON.parse(compiledCode.contracts[':Voting'].interface)
 		 VotingContract = web3.eth.contract(abiDefinition)
 		 byteCode = compiledCode.contracts[':Voting'].bytecode
-		 deployedContract = VotingContract.new(['Sanat','Aniket','Mandar','Akshay'],{data: byteCode, from: web3.eth.accounts[0], gas: 4700000})
+		 deployedContract = VotingContract.new(['Haris','Max','Ibrahim','Samra'],{data: byteCode, from: web3.eth.accounts[0], gas: 4700000})
 		
 		contractInstance = VotingContract.at(deployedContract.address)
 
