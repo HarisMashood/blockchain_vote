@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aadhaar Voting
 Aadhaar Based voting system using blockchain technology
 Project implemented as part of Rajasthan Hackathron
@@ -130,3 +131,6 @@ user interface and high security.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+=======
+# blockchain_vote
+>>>>>>> 05aece6513937b0b39a479c9a1f72f291a5339c6
